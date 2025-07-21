@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MCP on Azure Cloud – Ads Initiative</title>
+  <meta name="description" content="Announcing our upcoming Ads initiative powered by MCP on Azure Cloud. Learn more about how we're building for global scale and performance." />
+  <meta name="robots" content="index, follow" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: #666;
+    }
+  </style>
+
+  <!-- Optional: Application Insights (Client-side Telemetry) -->
+  <script type="text/javascript">
+    var appInsights = window.appInsights || (function (config) {
+      function r(method) {
+        t[method] = function () {
+          var args = arguments;
+          t.queue.push(function () { t[method].apply(t, args); });
+        };
+      }
+      var t = { config: config }, u = document, o = "script", s = u.createElement(o), f, i;
+      s.src = config.url || "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js";
+      u.getElementsByTagName(o)[0].parentNode.appendChild(s);
+      t.cookie = u.cookie;
+      t.queue = [];
+      i = ["trackPageView", "trackEvent", "trackException", "trackTrace", "trackDependencyData", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"];
+      for (f = 0; f < i.length; f++) r(i[f]);
+      return t;
+    })({
+      instrumentationKey: "ef2b1e91-a440-434d-abf7-f006cd131028"
+    });
+    window.appInsights = appInsights;
+    appInsights.trackPageView();
+  </script>
+
+</head>
+<body>
+
+  <header>
+    <h1>MCP on Azure Cloud</h1>
+    <p>Introducing our Ads Initiative</p>
+  </header>
+
+  <main>
+    <img src="/acme-ads-images/mcpserversazure.png" alt="MCP on Azure Cloud Advertisement" loading="lazy" />
+  </main>
+
+  <footer>
+    &copy; 2025 ACME Corp. All rights reserved.
+  </footer>
+
+</body>
+</html>
