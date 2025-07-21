@@ -43,6 +43,8 @@ Least privilege access
 
 Optional extras:
 Application insights - for metrics, availability, Transactional Search
+<img width="3004" height="1356" alt="image" src="https://github.com/user-attachments/assets/0cb32a95-cb11-4d3f-ad44-5f8c10349978" />
+
 
 
 
